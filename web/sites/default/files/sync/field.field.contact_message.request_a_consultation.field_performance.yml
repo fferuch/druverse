@@ -1,0 +1,21 @@
+uuid: 3c81bf84-9333-44a7-b9bf-305db49f69d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.request_a_consultation
+    - field.storage.contact_message.field_performance
+id: contact_message.request_a_consultation.field_performance
+field_name: field_performance
+entity_type: contact_message
+bundle: request_a_consultation
+label: Performance
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

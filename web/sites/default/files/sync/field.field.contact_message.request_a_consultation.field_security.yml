@@ -1,0 +1,21 @@
+uuid: 8ce57c74-f2cd-4b76-89a7-1e88f618f4d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.request_a_consultation
+    - field.storage.contact_message.field_security
+id: contact_message.request_a_consultation.field_security
+field_name: field_security
+entity_type: contact_message
+bundle: request_a_consultation
+label: Security
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

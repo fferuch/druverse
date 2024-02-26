@@ -1,0 +1,21 @@
+uuid: d94ed2dc-1fcf-4ef6-be27-c3fa409060c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.request_a_consultation
+    - field.storage.contact_message.field_debug_custom_module_code
+id: contact_message.request_a_consultation.field_debug_custom_module_code
+field_name: field_debug_custom_module_code
+entity_type: contact_message
+bundle: request_a_consultation
+label: 'Debug custom module code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
