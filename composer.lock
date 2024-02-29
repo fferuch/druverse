@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a126272a8905d3232d7a90efbecc63e7",
+    "content-hash": "d0a58a96403eac6d9c6476d8024f039c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1274,6 +1274,56 @@
             }
         },
         {
+            "name": "drupal/bootstrap5",
+            "version": "4.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap5.git",
+                "reference": "4.0.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap5-4.0.0-alpha1.zip",
+                "reference": "4.0.0-alpha1",
+                "shasum": "8a567d4131a1beb871ca4ac37109f657df4c855d"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.0-alpha1",
+                    "datestamp": "1694954906",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Vladimir Roudakov (vladimiraus)",
+                    "homepage": "https://www.drupal.org/u/vladimiraus",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "VladimirAus",
+                    "homepage": "https://www.drupal.org/user/673120"
+                }
+            ],
+            "description": "Master theme using Bootstrap 5: powerful front-end framework for faster and easier web development.",
+            "homepage": "https://www.drupal.org/project/bootstrap5",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap5",
+                "issues": "https://www.drupal.org/project/issues/bootstrap5"
+            }
+        },
+        {
             "name": "drupal/bootstrap_barrio",
             "version": "5.5.16",
             "source": {
@@ -1652,6 +1702,223 @@
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core."
         },
         {
+            "name": "drupal/css_editor",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/css_editor.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/css_editor-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "046fcf2d74c0512f426d6be36571735aed0d11fd"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1677749668",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "caiosba",
+                    "homepage": "https://www.drupal.org/user/1774198"
+                },
+                {
+                    "name": "encelado",
+                    "homepage": "https://www.drupal.org/user/701446"
+                },
+                {
+                    "name": "infojunkie",
+                    "homepage": "https://www.drupal.org/user/48424"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                }
+            ],
+            "description": "Customize your CSS directly from the browser.",
+            "homepage": "https://www.drupal.org/project/css_editor",
+            "support": {
+                "source": "https://git.drupalcode.org/project/css_editor"
+            }
+        },
+        {
+            "name": "drupal/ctools",
+            "version": "4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ctools.git",
+                "reference": "4.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ctools-4.0.4.zip",
+                "reference": "4.0.4",
+                "shasum": "4a2474eb2fd525b2add2db0e855c135ba7f0fb70"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.4",
+                    "datestamp": "1684299878",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "branch-alias": {
+                    "dev-8.x-3.x": "3.x-dev"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Vanderwater (EclipseGc)",
+                    "homepage": "https://www.drupal.org/u/eclipsegc",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jakob Perry (japerry)",
+                    "homepage": "https://www.drupal.org/u/japerry",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Tim Plunkett (tim.plunkett)",
+                    "homepage": "https://www.drupal.org/u/timplunkett",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "James Gilliland (neclimdul)",
+                    "homepage": "https://www.drupal.org/u/neclimdul",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Daniel Wehner (dawehner)",
+                    "homepage": "https://www.drupal.org/u/dawehner",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
+                    "name": "merlinofchaos",
+                    "homepage": "https://www.drupal.org/user/26979"
+                },
+                {
+                    "name": "neclimdul",
+                    "homepage": "https://www.drupal.org/user/48673"
+                },
+                {
+                    "name": "sdboyer",
+                    "homepage": "https://www.drupal.org/user/146719"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                },
+                {
+                    "name": "tim.plunkett",
+                    "homepage": "https://www.drupal.org/user/241634"
+                }
+            ],
+            "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
+            "homepage": "https://www.drupal.org/project/ctools",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ctools",
+                "issues": "https://www.drupal.org/project/issues/ctools"
+            }
+        },
+        {
+            "name": "drupal/pathauto",
+            "version": "1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/pathauto.git",
+                "reference": "8.x-1.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.12.zip",
+                "reference": "8.x-1.12",
+                "shasum": "b7b6432e315e38e59a7c6cc117134326c580de4c"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10",
+                "drupal/ctools": "*",
+                "drupal/token": "*"
+            },
+            "suggest": {
+                "drupal/redirect": "When installed Pathauto will provide a new \"Update Action\" in case your URLs change. This is the recommended update action and is considered the best practice for SEO and usability."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.12",
+                    "datestamp": "1696776683",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Freso",
+                    "homepage": "https://www.drupal.org/user/27504"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                }
+            ],
+            "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
+            "homepage": "https://www.drupal.org/project/pathauto",
+            "support": {
+                "source": "https://cgit.drupalcode.org/pathauto",
+                "issues": "https://www.drupal.org/project/issues/pathauto",
+                "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
             "name": "drupal/thex",
             "version": "10.0.4",
             "source": {
@@ -1693,6 +1960,75 @@
             "homepage": "https://www.drupal.org/project/thex",
             "support": {
                 "source": "https://git.drupalcode.org/project/thex"
+            }
+        },
+        {
+            "name": "drupal/token",
+            "version": "1.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/token.git",
+                "reference": "8.x-1.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.13.zip",
+                "reference": "8.x-1.13",
+                "shasum": "f2a074b51726de3727c1d900237d6d471806a4d2"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.13",
+                    "datestamp": "1697885927",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": ">=9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "eaton",
+                    "homepage": "https://www.drupal.org/user/16496"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                }
+            ],
+            "description": "Provides a user interface for the Token API, some missing core tokens.",
+            "homepage": "https://www.drupal.org/project/token",
+            "support": {
+                "source": "https://git.drupalcode.org/project/token"
             }
         },
         {
@@ -6528,7 +6864,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/bootstrap5": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
