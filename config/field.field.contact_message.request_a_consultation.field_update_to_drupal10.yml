@@ -1,0 +1,21 @@
+uuid: 2ff15807-c7e9-4604-98f9-d5532b649b18
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.request_a_consultation
+    - field.storage.contact_message.field_update_to_drupal10
+id: contact_message.request_a_consultation.field_update_to_drupal10
+field_name: field_update_to_drupal10
+entity_type: contact_message
+bundle: request_a_consultation
+label: 'Update to Drupal10'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

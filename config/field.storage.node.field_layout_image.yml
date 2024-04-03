@@ -1,0 +1,20 @@
+uuid: f5eecd10-751f-4dc3-8ef2-725e56c560f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_layout_image
+field_name: field_layout_image
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

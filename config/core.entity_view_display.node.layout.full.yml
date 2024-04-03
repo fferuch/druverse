@@ -1,0 +1,78 @@
+uuid: 07da6e91-a5d5-4a10-a836-eba45762b165
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.layout.body
+    - field.field.node.layout.field_layout_image
+    - field.field.node.layout.layout_builder__layout
+    - node.type.layout
+  content:
+    - 'block_content:basic:44ea1d18-56c1-49b5-a3da-9d79d2999139'
+  module:
+    - block_content
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          3f18814e-4f00-4987-8988-37b3cc753238:
+            uuid: 3f18814e-4f00-4987-8988-37b3cc753238
+            region: content
+            configuration:
+              id: 'block_content:91ea17d0-bbc7-4a83-b88c-fe126d7410e4'
+              label: 'Responsive left aligned'
+              label_display: '0'
+              provider: block_content
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+          e081d156-c054-4abb-9264-1b67eb67cf2f:
+            uuid: e081d156-c054-4abb-9264-1b67eb67cf2f
+            region: content
+            configuration:
+              id: 'block_content:44ea1d18-56c1-49b5-a3da-9d79d2999139'
+              label: 'Features with title'
+              label_display: '0'
+              provider: block_content
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: node.layout.full
+targetEntityType: node
+bundle: layout
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_layout_image: true
+  layout_builder__layout: true

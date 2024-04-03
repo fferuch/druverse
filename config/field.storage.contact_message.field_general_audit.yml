@@ -1,0 +1,18 @@
+uuid: b5c60ed2-b764-4ff9-9b08-4a0e99d19db7
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_general_audit
+field_name: field_general_audit
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

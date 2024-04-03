@@ -1,0 +1,34 @@
+uuid: f7e6c836-a520-4d62-8380-3d13ba4f1881
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ticket.body
+    - field.field.node.ticket.field_email
+    - field.field.node.ticket.field_steps_to_reproduce
+    - node.type.ticket
+  module:
+    - text
+    - user
+id: node.ticket.teaser
+targetEntityType: node
+bundle: ticket
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_email: true
+  field_steps_to_reproduce: true

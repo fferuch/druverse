@@ -1,0 +1,12 @@
+uuid: 68ad0691-bdb6-4e3e-9a99-69b75f808eaf
+langcode: en
+status: true
+dependencies: {  }
+id: request_a_consultation
+label: 'Request a Consultation'
+recipients:
+  - feruch@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

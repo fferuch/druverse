@@ -1,0 +1,31 @@
+uuid: eae0df78-08ef-430f-a9a1-29e10b2a44aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_basic_page
+    - media.type.image
+    - media.type.video
+    - node.type.page
+id: node.page.field_image_basic_page
+field_name: field_image_basic_page
+entity_type: node
+bundle: page
+label: 'image basic page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference
