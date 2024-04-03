@@ -1,0 +1,199 @@
+uuid: 5d747fc2-51aa-4c52-a100-eb38b7670930
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.request_a_consultation
+    - field.field.contact_message.request_a_consultation.field_debug_custom_module_code
+    - field.field.contact_message.request_a_consultation.field_general_audit
+    - field.field.contact_message.request_a_consultation.field_performance
+    - field.field.contact_message.request_a_consultation.field_security
+    - field.field.contact_message.request_a_consultation.field_update_to_drupal10
+  module:
+    - field_layout
+    - layout_builder
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          8a0e184e-d397-4129-9082-38c273a4d1ac:
+            uuid: 8a0e184e-d397-4129-9082-38c273a4d1ac
+            region: content
+            configuration:
+              id: 'field_block:contact_message:request_a_consultation:message'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          2bfc33a0-4503-482a-9beb-0427cdd353c6:
+            uuid: 2bfc33a0-4503-482a-9beb-0427cdd353c6
+            region: content
+            configuration:
+              id: 'field_block:contact_message:request_a_consultation:field_security'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: boolean
+                label: above
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          7994a59b-bc3c-4b98-9df9-76f1f20808c5:
+            uuid: 7994a59b-bc3c-4b98-9df9-76f1f20808c5
+            region: content
+            configuration:
+              id: 'field_block:contact_message:request_a_consultation:field_performance'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: boolean
+                label: above
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          7b831072-91b6-4f8a-a24c-22df28915168:
+            uuid: 7b831072-91b6-4f8a-a24c-22df28915168
+            region: content
+            configuration:
+              id: 'field_block:contact_message:request_a_consultation:field_update_to_drupal10'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: boolean
+                label: above
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          a8e8fa70-bc8f-424f-8fdc-41b76b186c06:
+            uuid: a8e8fa70-bc8f-424f-8fdc-41b76b186c06
+            region: content
+            configuration:
+              id: 'field_block:contact_message:request_a_consultation:field_debug_custom_module_code'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: boolean
+                label: above
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          43a58ea0-e88b-47a9-9ef4-ba12cd814d03:
+            uuid: 43a58ea0-e88b-47a9-9ef4-ba12cd814d03
+            region: content
+            configuration:
+              id: 'field_block:contact_message:request_a_consultation:field_general_audit'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: boolean
+                label: above
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+        third_party_settings: {  }
+id: contact_message.request_a_consultation.default
+targetEntityType: contact_message
+bundle: request_a_consultation
+mode: default
+content:
+  field_debug_custom_module_code:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_general_audit:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_performance:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_security:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_update_to_drupal10:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  message:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

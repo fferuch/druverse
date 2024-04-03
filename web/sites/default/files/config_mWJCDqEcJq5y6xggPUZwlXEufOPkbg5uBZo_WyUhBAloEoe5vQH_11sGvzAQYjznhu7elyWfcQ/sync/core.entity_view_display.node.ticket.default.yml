@@ -1,0 +1,44 @@
+uuid: 134c42b6-dc88-4e75-b807-7f7160e98fca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ticket.body
+    - field.field.node.ticket.field_email
+    - field.field.node.ticket.field_steps_to_reproduce
+    - node.type.ticket
+  module:
+    - text
+    - user
+id: node.ticket.default
+targetEntityType: node
+bundle: ticket
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_steps_to_reproduce:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 48436d88-802f-4320-b651-73a619d0178c
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.request_a_consultation
+    - field.storage.contact_message.field_general_audit
+id: contact_message.request_a_consultation.field_general_audit
+field_name: field_general_audit
+entity_type: contact_message
+bundle: request_a_consultation
+label: 'General Audit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

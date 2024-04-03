@@ -1,0 +1,22 @@
+uuid: d5e2906b-6567-460a-9b45-8b2e8d91cc07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_steps_to_reproduce
+    - node.type.ticket
+  module:
+    - text
+id: node.ticket.field_steps_to_reproduce
+field_name: field_steps_to_reproduce
+entity_type: node
+bundle: ticket
+label: 'Steps to reproduce'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,5 @@
+path: 'public://css_editor/bootstrap_barrio_subtheme.css'
+enabled: true
+css: "div.d-flex.flex-column.align-items-start.gap-2 > p > span{\r\nbackground-color:transparent!important;\r\n}\r\n"
+plaintext_enabled: false
+autopreview_enabled: false
